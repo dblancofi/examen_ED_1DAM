@@ -6,14 +6,16 @@ public class persona {
     private String birthDate;
     private int age;
     private String gender;
+	private String height;
 
     //Constructor
-    public persona(String nombre, String apellido, String fecha, int edad, String genero) {
+    public persona(String nombre, String apellido, String fecha, int edad, String genero, string altura) {
         name = nombre;
         lastName = apellido;
         birthDate = fecha;
         age = edad;
         gender = genero;
+		height = altura;
     }
     
     //Métodos - getters&setters
@@ -56,6 +58,15 @@ public class persona {
 
     public String getGender() {
         return gender;
+    }
+	
+	
+	public void setHeight(String altura) {
+        height = altura;
+    }
+
+    public String getHeight() {
+        return genero;
     }
 
 }
