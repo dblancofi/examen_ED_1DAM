@@ -5,6 +5,7 @@ public class persona {
     private String lastName;
     private String birthDate;
     private int age;
+    private String id;
     private String gender;
 	private String height;
 
